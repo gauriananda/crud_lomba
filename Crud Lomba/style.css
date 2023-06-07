@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  background-color: white !important;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #48e248;
+}
+
+.login-form {
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  background-color: #00ff00;
+  border-radius: 10px !important;
+}
+
+input[type="email"],
+input[type="password"] {
+  background: white;
+  color: black;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: none;
+  background: #1a2226;
+  color: black;
+  margin: 0;
+}
+
+.card-title {
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.btn {
+  color: white !important;
+  /* transform: translateY(10px); */
+  font-size: 14px;
+  border-radius: 10px !important;
+}
+
+header {
+  background-color: #fff;
+}
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header h1 {
+  padding: 15px 25px;
+  display: inline-block;
+}
+header ul {
+  float: left;
+}
+header ul li {
+  padding: 24px 25px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.table tr {
+  height: 30px;
+}
+.table tr td {
+  padding: 5px 10px;
+}
+.table tr td:nth-child() {
+  text-align: center;
+}
